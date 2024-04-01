@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.herosection{
+    height: 100vh;
+}
+
+.herodiv{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.hero-left{
+    flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero-img{
+    height: 25rem;
+    width: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.hero-button{
+    background-color: rgb(224, 94, 190);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.hero-left h2{
+    font-size: 2.5rem;
+}
+
+.hero-left p{
+    font-size: 0.95rem;
+    color: rgb(42, 40, 40);
+}
+
+.desktop-header{
+    padding: 1rem 0;
+    background-color: rgb(223, 219, 219);
+}
+
+.mobile-header{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-h1{
+    font-size: 1.3rem;
+}
+
+.header-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+
+.header-links a:hover{
+    color: blueviolet;
+}
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(190, 132, 189);
+    padding: 1.5rem;
+}
+
+.our-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 1rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    margin: 4rem;
+    background-color: white;
+}
+
+.cards1{
+    text-align: center;
+}
+
+.cards-item img{
+    height: 8rem;
+    width: 13rem;
+    gap: 2rem;
+    margin-left: 1.5rem;
+}
+
+.cards-item{
+    background-color: whitesmoke;
+    height: 22rem;
+    width: 16rem;
+    padding-top: 1rem;
+}
+
+.cards-item p{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.button1{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-color: skyblue;
+    margin-top: 1rem;
+    background-color: skyblue;
+    color: white;
+    margin-left: 1.5rem;
+}
+
+.cards-item a{
+    margin-left: 2rem;
+    color: skyblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0.5rem;
+}
+.contact{
+    padding-top: 5rem;
+}
+
+.cba h1{
+    font-size: 3rem;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.left{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.right{
+    padding-left: 2rem;
+}
+
+.buttom{
+  margin-top: 3rem;
+}
+
+.button{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+background-color: black;
+border-radius: 15px;
+width: 11rem;
+height: 2rem;
+margin-top: 4.4rem;
+} 
+
+.icons{
+margin-top: 3.6rem;
+display: flex;
+gap: 1.8rem;
+font-size: 1.8rem;
+}
+
+.abc img{
+    height: 24.5rem;
+    width: 26rem;
+    padding-top: 4rem;
+}
+
+.top{
+margin-top: 4rem;
+}
+
+.form-card{
+    display: flex;
+   border-top: 2px solid black;
+   border-left: 2px solid black;
+}
+
+input,textarea{
+    border: none;
+  border-bottom: 2px solid black;
+}
+
+.code{
+    background-color: black;
+    color: white;
+    margin-top: 4rem;
+    height: 30vh;
+}
+
+.para p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.para h3{
+    padding-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.icon-1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.copyright{
+    background-color: grey;
+    color: white;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.copyright{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+}

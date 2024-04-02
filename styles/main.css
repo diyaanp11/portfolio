@@ -219,19 +219,22 @@ font-size: 1.8rem;
 }
 
 .abc img{
-    height: 24.5rem;
+    height: 27rem;
     width: 26rem;
     padding-top: 4rem;
 }
 
 .top{
 margin-top: 4rem;
+
 }
 
 .form-card{
     display: flex;
    border-top: 2px solid black;
    border-left: 2px solid black;
+   padding-top: 2rem;
+   padding-left: 2rem;
 }
 
 input,textarea{
